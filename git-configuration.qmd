@@ -13,7 +13,9 @@ editor: visual
 
 ```{r}
 library(usethis)
-use_git_config(user.name = "Your Name", user.email = "Your Email")
+
+# Replace Your Name and Your Email with your details. Do not delete the quotes "".
+use_git_config(user.name = "Fionn", user.email = "fsmith@student.ethz.ch")
 ```
 
 ## Commit and push your changes
